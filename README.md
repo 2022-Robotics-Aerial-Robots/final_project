@@ -49,14 +49,10 @@ sudo ./install_geographiclib_datasets.sh
 ## Setup
 ```
 # if you don't have one, try to review ros architecture  and create one
-cd ~/catkin_ws/src
+cd ~/final_project_ws/src
 
 git clone https://github.com/ethz-asl/mav_comm.git
-git clone git@github.com:2022-Robotics-Aerial-Robots/Homework.git
-mv /Homework/final_project final_project
-
-# delete Homework file, you will need to enter the password
-sudo rm -r /Homework
+git clone https://github.com/2022-Robotics-Aerial-Robots/final_project.git
 
 cd ~/catkin_ws
 
@@ -65,31 +61,4 @@ catkin_make
 
 # Remember if you cannot find launch file or node file, execute this command! 
 source ~/catkin_ws/devel/setup.bash
-```
-## Spawn husky and quadcopter
-
-```
-roslaunch rotors_gazebo mav_hovering_example.launch 
-```
-
-![](https://i.imgur.com/NNoYdvO.png)
-
-## Run position controller 
-```
-roslaunch rotors_gazebo controller_challenge.launch 
-```
-![](https://i.imgur.com/M255jPo.png)
-
-
-
-# Challenge 1
-
-## Apriltag tutorial
-https://blog.csdn.net/wangmj_hdu/article/details/112668252
-## Run Apriltag_detector
-```
-roslaunch apriltag_ros continuous_detection.launch
-rostopic echo /tag_detections
-```
-![](https://i.imgur.com/8Ptwd8p.png)
 
