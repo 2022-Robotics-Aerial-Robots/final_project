@@ -34,7 +34,6 @@ sudo apt-get install ros-noetic-mavros
 sudo apt-get install ros-noetic-mavros-extras 
 sudo apt-get install ros-noetic-mavros-msgs
 sudo apt-get install ros-noetic-rm-msgs
-sudo apt install ros-noetic-octomap-ros
 sudo apt-get install libompl-dev
 sudo apt install libgoogle-glog-dev 
 
