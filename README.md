@@ -44,24 +44,6 @@ cd /opt/ros/noetic/lib/mavros
 sudo ./install_geographiclib_datasets.sh
 ```
 
-## Husky
-```
-sudo apt-get install ros-noetic-husky-simulator
-```
-## Apriltag
-```
-sudo apt-get install ros-noetic-apriltag-ros
-cd apriltag
-cmake .
-sudo make install
-cd ..
-
-# move apriltag installation folder to another folder to avoid error
-mv apriltag/ ~/
-```
-
-
-
 # Running
 
 ## Setup
