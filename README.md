@@ -21,7 +21,7 @@ The packages for 2022-AerialRobotics Final Project.
 * gazebo greater than 9.0
 
 ```
-sudo apt-get install ros-noetic-joy ros-noetic-octomap-ros ros-noetic-mavlink python-wstool python-catkin-tools protobuf-compiler libgoogle-glog-dev ros-noetic-control-toolbox
+sudo apt-get install ros-noetic-joy ros-noetic-octomap-ros ros-noetic-mavlink  python3-wstool python3-catkin-tools protobuf-compiler libgoogle-glog-dev ros-noetic-control-toolbox
 sudo apt-get install python-cvxopt
 //or
 sudo pip install cvxopt
