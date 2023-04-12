@@ -22,7 +22,7 @@ The packages for 2022-AerialRobotics Final Project.
 
 ```
 sudo apt-get install ros-noetic-joy ros-noetic-octomap-ros ros-noetic-mavlink  python3-wstool python3-catkin-tools protobuf-compiler libgoogle-glog-dev ros-noetic-control-toolbox
-sudo apt-get install python-cvxopt
+sudo apt-get install python3-cvxopt
 ```
 # Additional package
 
