@@ -45,7 +45,7 @@ sudo ./install_geographiclib_datasets.sh
 
 ## Setup
 
-# if you don't have one, try to review ros architecture  and create one
+if you don't have one, try to review ros architecture  and create one
 ```
 cd
 mkdir -p final_project/src
@@ -55,16 +55,16 @@ git clone https://github.com/2022-Robotics-Aerial-Robots/final_project.git
 cd ~/final_project
 ```
 
-# it will take about 2-5 minutes for first time
+it will take about 2-5 minutes for first time
 ```
 catkin_make
 ```
-# Remember if you cannot find launch file or node file, execute this command! 
+Remember if you cannot find launch file or node file, execute this command! 
 ```
 source ~/catkin_ws/devel/setup.bash
 ```
 
-# Run the following command to make sure the gazebo simulation is installed correctly
+Run the following command to make sure the gazebo simulation is installed correctly
 ```
 roslaunch rotors_gazebo mav_hovering_example.launch
 ```
