@@ -4,7 +4,7 @@
 In this project, each team has to complete the following part:
 
 1. (10%) Select 10 points and visualize them on Rviz.
-2. (40%) Implement QP trajectory planning using points you selected in part 1, and visualize the trajectory on Rviz.
+2. (40%) Implement QP trajectory planning using points you selected in part 1, and visualize trajectories on Rviz.
 3. (10%) Run UAV's gazebo simulation and make it fly in the trajectory you planned with the following topic: "/${arg mav_name}/command/trajectory". Notice that the heading of it should be towards its velocity direction.
 4. (40%) Construct a UAV formation team with one leader and two followers, the heading direction of them should be the same, and followers should remain behind the direction the leader is facing. (Coordinate transformation is needed)
 
