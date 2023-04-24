@@ -7,17 +7,9 @@ The packages for 2022-AerialRobotics Final Project.
 
 1. Rotor_simulator : UAV simulation using Geometric Controller
 
-2. Husky : Ground Vehicle for assisting UAV challenge
-    - Navigation
-    - Localization
-    - SLAM
-
-3. Apriltag : For localization
-
-
 
 # Requirements
-* Ubuntu 20.04 ros-melodic
+* Ubuntu 20.04 ros-noetic
 * gazebo greater than 9.0
 
 ```
